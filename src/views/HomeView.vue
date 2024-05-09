@@ -28,7 +28,7 @@ main {
     font-size: 25px;
   }
   .g-signin2 {
-    border: 2px solid black;
+    border: 2px transparent;
   }
 }
 </style>
