@@ -8,9 +8,9 @@ const onSignIn = (user) => {
   <main>
     <div class="block">
       <h1>You can now Sign in to our platform</h1>
-      <button class="g-signin2" data-onsuccess="onSignIn" @click="onSignIn">
+      <div class="g-signin2" data-onsuccess="onSignIn" @click="onSignIn">
         Sign in
-      </button>
+      </div>
     </div>
   </main>
 </template>
@@ -26,17 +26,6 @@ main {
   h1 {
     text-align: center;
     font-size: 25px;
-  }
-  button {
-    display: block;
-    margin: auto;
-    width: 200px;
-    padding: 10px 30px;
-    font-size: 20px;
-    border: none;
-    border-radius: 9px;
-    background-color: rgb(65, 133, 244);
-    color: #fff;
   }
 }
 </style>
