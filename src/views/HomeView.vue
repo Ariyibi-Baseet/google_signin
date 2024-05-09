@@ -27,5 +27,8 @@ main {
     text-align: center;
     font-size: 25px;
   }
+  .g-signin2 {
+    border: 2px solid black;
+  }
 }
 </style>
